@@ -1,0 +1,148 @@
+.header {
+  height: 400px;
+  background-image: url(/images/прочее/панорама2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.characters {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#loadCharastersButton {
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(112, 112, 112);
+  font-family: "Times New Roman", Times, serif;
+}
+#characters-list {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.characters img {
+  width: 400px;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+.characters img:hover {
+  transform: scale(1.1);
+}
+
+.characters-card {
+  margin: 10px;
+  flex-direction: column;
+  transition: 1s;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.characters-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.characters h2 {
+  color: grey;
+  margin-top: 10px;
+}
+.characters p {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+#loadCharastersButton {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#loadCharastersButton:hover {
+  background-color: #8b99a8;
+  transform: scale(1.1);
+}
+
+/* TAB SLIDER */
+
+.tab_slider {
+  padding: 10px 0;
+}
+
+.tab_content_block {
+  background-image: url(/images/прочее/рамка3.png);
+  background-repeat: no-repeat;
+  width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 310px;
+}
+
+.tab_content_block p {
+  color: grey;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tab_content_items {
+  width: 400px;
+  background-image: url(/images/прочее/рамка56.png);
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.tab_content_item {
+  padding: 10px;
+  height: 30px;
+  color: rgb(148, 148, 148);
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+
+.tab_content_item_active {
+  font-weight: 600;
+  border: 1px solid grey;
+}
+
+.tab_contents_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.inner_converter {
+  display: flex;
+  align-items: center;
+  background-image: url(/images/прочее/рамка44.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.inner_converter > div {
+  display: flex;
+  flex-direction: column;
+}
+.inner_converter input {
+  width: 330px;
+  height: 50px;
+  font-size: 20px;
+  background: black;
+  margin: 0px 30px 35px 38px;
+  color: grey;
+  border-radius: 10px;
+}
+label {
+  text-align: center;
+  font-size: 24px;
+  color: grey;
+}

@@ -1,0 +1,39 @@
+.header {
+  height: 400px;
+  background-image: url(/images/прочее/фон4а.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 1200px;
+}
+.container p {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.anomaly-card {
+  display: flex;
+  padding: 70px;
+  gap: 70px;
+  justify-content: center;
+}
+.anomaly-card p {
+  color: grey;
+  text-align: center;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.anomaly-card img {
+  width: 300px;
+  border-radius: 20px;
+  border: 5px solid rgb(34, 33, 33);
+  background-size: 50px;
+  transition: 1s;
+}
+.anomaly-card img:hover {
+  transform: scale(1.1);
+}

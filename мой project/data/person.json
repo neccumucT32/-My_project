@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Стрелок",
+    "person_photo": "/images/персонажи/стрелок.jpg",
+    "grouping": "Вольный сталкер"
+  },
+  {
+    "name": "Шрам",
+    "person_photo": "/images/персонажи/шрам.jpg",
+    "grouping": "Наёмник"
+  },
+  {
+    "name": "Александр Дегтярёв",
+    "person_photo": "/images/персонажи/дегтярев.jpg",
+    "grouping": "Военный"
+  }
+]

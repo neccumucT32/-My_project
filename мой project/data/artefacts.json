@@ -1,0 +1,138 @@
+{
+  "gravityArt": [
+    {
+      "name1": {
+        "src": "../images/artefacts/медуза.gif",
+        "description": "Медуза"
+      },
+      "name2": {
+        "src": "../images/artefacts/каменный цветок.gif",
+        "description": "Каменный цветок"
+      },
+      "name3": {
+        "src": "../images/artefacts/ночная звезда.gif",
+        "description": "Ночная звезда"
+      },
+      "name4": {
+        "src": "../images/artefacts/выверт.gif",
+        "description": "Выверт"
+      },
+      "name5": {
+        "src": "../images/artefacts/грави.gif",
+        "description": "Грави"
+      },
+      "name6": {
+        "src": "../images/artefacts/золотая рыбка.gif",
+        "description": "Золотая рыбка"
+      }
+    }
+  ],
+  "electroArt": [
+    {
+      "name1": {
+        "src": "../images/artefacts/бенгальский огонь.gif",
+        "description": "Бенгальский огонь"
+      },
+      "name2": {
+        "src": "../images/artefacts/вспышка.gif",
+        "description": "Вспышка"
+      },
+      "name3": {
+        "src": "../images/artefacts/лунный свет.gif",
+        "description": "Лунный свет"
+      },
+      "name4": {
+        "src": "../images/artefacts/батарейка.gif",
+        "description": "Батарейка"
+      },
+      "name5": {
+        "src": "../images/artefacts/пустышка.gif",
+        "description": "Пустышка"
+      },
+      "name6": {
+        "src": "../images/artefacts/снежинка.gif",
+        "description": "Снежинка"
+      }
+    }
+  ],
+  "thermally": [
+    {
+      "name1": {
+        "src": "../images/artefacts/кристалл.gif",
+        "description": "Кристалл"
+      },
+      "name2": {
+        "src": "../images/artefacts/огненный шар.gif",
+        "description": "Огненный шар"
+      },
+      "name3": {
+        "src": "../images/artefacts/мамины бусы.gif",
+        "description": "Мамины бусы"
+      },
+      "name4": {
+        "src": "../images/artefacts/глаз.gif",
+        "description": "Глаз"
+      },
+      "name5": {
+        "src": "../images/artefacts/пламя.gif",
+        "description": "Пламя"
+      }
+    }
+  ],
+  "chemistry": [
+    {
+      "name1": {
+        "src": "../images/artefacts/кровь камня.gif",
+        "description": "Кровь камня"
+      },
+      "name2": {
+        "src": "../images/artefacts/ломоть мяса.gif",
+        "description": "Ломоть мяса"
+      },
+      "name3": {
+        "src": "../images/artefacts/Душа.gif",
+        "description": "Душа"
+      },
+      "name4": {
+        "src": "../images/artefacts/колобок.gif",
+        "description": "Колобок"
+      },
+      "name5": {
+        "src": "../images/artefacts/пузырь.gif",
+        "description": "Пузырь"
+      },
+      "name6": {
+        "src": "../images/artefacts/светляк.gif",
+        "description": "Светляк"
+      }
+    }
+  ],
+  "unknownArt": [
+    {
+      "name1": {
+        "src": "../images/artefacts/компас.gif",
+        "description": "Компас"
+      }
+    }
+  ],
+  "artPlant": [
+    {
+      "name1": {
+        "src": "../images/artefacts/сердце оазиса.gif",
+        "description": "Сердце Оазиса"
+      }
+    }
+  ],
+  "semi-arts": [
+    {
+      "name1": {
+        "src": "../images/artefacts/изм штурвал.gif",
+        "description": "Изменённый штурвал"
+      },
+      "name2": {
+        "src": "../images/artefacts/изм изолятор.gif",
+        "description": "Изменённый изолятор"
+      }
+    }
+  ]
+}

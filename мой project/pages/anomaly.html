@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Аномалии</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/core.css" />
+    <link rel="stylesheet" href="../css/anomaly.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="inner_header">
+            <a href="../index.html">
+              <div class="logotype">
+                <img
+                  src="/images/прочее/S.T.A.L.K.E.R._Logo.png"
+                  alt="Логотип S.T.A.L.K.E.R."
+                />
+              </div>
+            </a>
+            <ul class="menu">
+              <li class="menu_link">
+                <a href="../pages/world_zone.html"
+                  ><button class="btnlist" id="btnlist">Мир зоны</button></a
+                >
+              </li>
+              <li class="menu_link">
+                <a href="../pages/main_Characters.html"
+                  ><button class="btnlist" id="btnlist">Осн.персонажи</button>
+                </a>
+              </li>
+              <li class="menu_link">
+                <a href="../pages/mutants.html"
+                  ><button class="btnlist" id="btnlist">Мутанты</button></a
+                >
+              </li>
+              <li class="menu_link">
+                <a href="../pages/anomaly.html"
+                  ><button class="btnlist" id="btnlist">Аномалии</button></a
+                >
+              </li>
+              <li class="menu_link">
+                <a href="../pages/artefacts.html"
+                  ><button class="btnlist" id="btnlist">Артефакты</button></a
+                >
+              </li>
+            </ul>
+            <div class="btn-container">
+              <button class="btns" id="btn-gets">Нажмите сюда</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="anomaly">
+      <div class="container">
+        <p>
+          Аномалии — относительно небольшие образования неизвестной природы,
+          существующие в виде областей в пространстве с изменёнными законами
+          физики или мутировавшей растительности. Наносят физический или
+          химический урон попавшим в них объектам, но также существуют аномалии,
+          не имеющие прямого отрицательного воздействия. Большинство аномалий
+          способны порождать артефакты. Механизм этого явления не известен, но
+          чаще всего это результат взаимодействия аномалии с различными
+          объектами, например, останки попавших в аномалию животных и растений,
+          металлические обломки и др. Определённого типа аномалии порождают
+          опредлённые артефакты с характерными свойствами.
+        </p>
+        <div class="anomaly-list"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <a href="https://www.stalker2.com/ru" target="_blank">
+          <div class="inner_footer">
+            <h2>S.T.A.L.K.E.R. 2: Heart of Chornobyl</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal_dialog">
+        <div class="modal_content">
+          <form action="#">
+            <div class="modal_close">&times;</div>
+            <div class="modal_title">Пожалуйста оцените данный проект !</div>
+            <input
+              required
+              placeholder="Дизайн проекта от 1 до 10"
+              name="name"
+              type="text"
+              class="modal_input"
+            />
+            <button class="btn btn_dark btn_min">Оценить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/anomaly.js"></script>
+    <script src="../js/modal.js"></script>
+  </body>
+</html>

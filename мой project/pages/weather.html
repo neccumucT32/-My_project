@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погода</title>
+    <link rel="stylesheet" href="/css/weather.css" />
+  </head>
+  <body>
+    <div class="weather">
+      <div class="container">
+        <div class="inner_weather">
+          <video class="background-video" autoplay muted loop>
+            <source src="/видео-фон/фон2.webm" type="video/mp4" />
+          </video>
+          <div>
+            <input
+              type="text"
+              class="cityName"
+              placeholder="Найти погоду в..."
+            />
+          </div>
+          <button class="search" id="search">Поиск</button>
+          <div>
+            <span class="city"></span>
+            <hr />
+            <span class="temp"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/weather.js"></script>
+  </body>
+</html>
